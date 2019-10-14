@@ -53,7 +53,7 @@ def total_gross(source)
   name = list_of_directors(source)
   x = 0 
   while x < source.length do 
-    total += date[name[x]]
+    total += data[name[x]]
     x+=1 
   end
   return total
